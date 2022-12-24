@@ -1,0 +1,8 @@
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Bubble sort\bin\Debug\Bubble sort.exe.config
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Bubble sort\bin\Debug\Bubble sort.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Bubble sort\bin\Debug\Bubble sort.pdb
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Bubble sort\obj\Debug\Bubble sort.csproj.AssemblyReference.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Bubble sort\obj\Debug\Bubble sort.csproj.SuggestedBindingRedirects.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Bubble sort\obj\Debug\Bubble sort.csproj.CoreCompileInputs.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Bubble sort\obj\Debug\Bubble sort.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Bubble sort\obj\Debug\Bubble sort.pdb
