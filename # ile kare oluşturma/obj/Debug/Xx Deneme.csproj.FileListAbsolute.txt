@@ -1,0 +1,8 @@
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Xx Deneme\bin\Debug\Xx Deneme.exe.config
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Xx Deneme\bin\Debug\Xx Deneme.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Xx Deneme\bin\Debug\Xx Deneme.pdb
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Xx Deneme\obj\Debug\Xx Deneme.csproj.AssemblyReference.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Xx Deneme\obj\Debug\Xx Deneme.csproj.SuggestedBindingRedirects.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Xx Deneme\obj\Debug\Xx Deneme.csproj.CoreCompileInputs.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Xx Deneme\obj\Debug\Xx Deneme.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\Xx Deneme\obj\Debug\Xx Deneme.pdb
