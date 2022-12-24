@@ -1,0 +1,8 @@
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim1\bin\Debug\V algoritma ödevim1.exe.config
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim1\bin\Debug\V algoritma ödevim1.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim1\bin\Debug\V algoritma ödevim1.pdb
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim1\obj\Debug\V algoritma ödevim1.csproj.AssemblyReference.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim1\obj\Debug\V algoritma ödevim1.csproj.SuggestedBindingRedirects.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim1\obj\Debug\V algoritma ödevim1.csproj.CoreCompileInputs.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim1\obj\Debug\V algoritma ödevim1.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim1\obj\Debug\V algoritma ödevim1.pdb
