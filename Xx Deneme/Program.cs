@@ -11,17 +11,17 @@ namespace Xx_Deneme
         static void Main(string[] args)
         {
             int sayi;
-            int a, i;
+            int i, j;
 
 
             Console.Write("Kare Uzunluk ve Genişlik Birimi Giriniz = ");
             sayi = Convert.ToInt16(Console.ReadLine());
 
-            for (a = 1; a <= sayi; a++)
+            for (i = 1; i <= sayi; i++)
             {
                 Console.WriteLine("\n");
 
-                for (i = 1; i <= sayi; i++) 
+                for (j = 1; j <= sayi; j++) 
                 {
                     Console.Write("  # ");                   
                 }
