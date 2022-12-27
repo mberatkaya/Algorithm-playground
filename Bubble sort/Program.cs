@@ -12,21 +12,21 @@ namespace Bubble_sort
         {
             int[] sayilar = { 4, 2, 6, 3, 1, 5, 9, 7, 8 };
             int sinir;
-            for (int j = 0; j <= sayilar.Length - 2; j++)
+            for (int i = 0; i <= sayilar.Length - 2; i++)
             {
-                for (int i = 0; i <= sayilar.Length - 2; i++)
+                for (int j = 0; j <= sayilar.Length - 2; j++)
                 {
-                    if (sayilar[i] > sayilar[i + 1])
+                    if (sayilar[j] > sayilar[j + 1])
                     {
-                        sinir = sayilar[i + 1];
-                        sayilar[i + 1] = sayilar[i];
-                        sayilar[i] = sinir;
+                        sinir = sayilar[j + 1];
+                        sayilar[j + 1] = sayilar[j];
+                        sayilar[j] = sinir;
                     }
                 }
             }
             Console.WriteLine("Sıralama:");
-            foreach (int a in sayilar)
-                Console.Write(a + " ");
+            foreach (int k in sayilar)
+                Console.Write(k + " ");
             Console.Read();
         }
     }
