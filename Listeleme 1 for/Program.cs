@@ -16,12 +16,10 @@ namespace V_algoritma_ödevim1
             {
                 if (i%2 ==1)
                 {
-                    Console.WriteLine("\n");
                     Console.WriteLine("1  2  3  4  5");
                 }
                 else
                 {
-                    Console.WriteLine("\n");
                     Console.WriteLine("#  #  #  #  # ");
                 }
             }
