@@ -1,0 +1,8 @@
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim kare oluşturma 4\bin\Debug\V algoritma ödevim kare oluşturma 4.exe.config
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim kare oluşturma 4\bin\Debug\V algoritma ödevim kare oluşturma 4.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim kare oluşturma 4\bin\Debug\V algoritma ödevim kare oluşturma 4.pdb
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim kare oluşturma 4\obj\Debug\V algoritma ödevim kare oluşturma 4.csproj.AssemblyReference.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim kare oluşturma 4\obj\Debug\V algoritma ödevim kare oluşturma 4.csproj.SuggestedBindingRedirects.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim kare oluşturma 4\obj\Debug\V algoritma ödevim kare oluşturma 4.csproj.CoreCompileInputs.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim kare oluşturma 4\obj\Debug\V algoritma ödevim kare oluşturma 4.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V algoritma ödevim kare oluşturma 4\obj\Debug\V algoritma ödevim kare oluşturma 4.pdb
