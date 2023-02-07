@@ -44,10 +44,6 @@ namespace Luhn_ve_TC_algoritması
                     {
                         Console.WriteLine(TcNumber + " numaralı Tc gerçektir");
                     }
-                    else
-                    {
-                        Console.WriteLine(TcNumber + " numaralı Tc sahtedir");
-                    }
                     Console.ReadLine();
                     break;
 
@@ -87,20 +83,20 @@ namespace Luhn_ve_TC_algoritması
         {
             if (tcNo.Length != 11)
             {
-                Console.WriteLine("TC Kimlik No 11 karakter olmalıdır.");
+                Console.WriteLine("TC Kimlik No 11 karakter olmalıdır."); /*1.kural*/
                 return false;
             }
 
             bool isNumber = long.TryParse(tcNo, out long tcNumber);
             if (!isNumber)
             {
-                Console.WriteLine("TC Kimlik No sadece rakamlardan oluşmalıdır.");
+                Console.WriteLine("TC Kimlik No sadece rakamlardan oluşmalıdır."); /*2.kural*/
                 return false;
             }
 
             if (tcNo[0] == '0')
             {
-                Console.WriteLine("TC Kimlik No ilk hanesi 0 olamaz.");
+                Console.WriteLine("TC Kimlik No ilk hanesi 0 olamaz."); /*3. kural*/
                 return false;
             }
 
@@ -118,7 +114,7 @@ namespace Luhn_ve_TC_algoritması
             int mod10 = ((firstDigit + thirdDigit + fifthDigit + seventhDigit + ninthDigit) * 7 - (secondDigit + fourthDigit + sixthDigit + eighthDigit)) % 10;
             if (mod10 == tenthDigit)
             {
-                Console.WriteLine("TC Kimlik No geçersizdir (4. kural).");
+                Console.WriteLine("TC Kimlik No geçersizdir."); /*4. kural*/
                 return false;
             }
 
@@ -126,7 +122,7 @@ namespace Luhn_ve_TC_algoritması
             int mod11 = total % 10;
             if (mod11 == (int)(tcNumber / 10 % 10))
             {
-                Console.WriteLine("TC Kimlik No geçersizdir (5. kural).");
+                Console.WriteLine("TC Kimlik No geçersizdir."); /*5. kural*/
                 return false;
             }
 
