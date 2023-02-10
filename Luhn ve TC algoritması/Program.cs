@@ -39,10 +39,10 @@ namespace Luhn_ve_TC_algoritması
                 case 2:
                     Console.WriteLine("Tc kimlik algoritması seçildi.");
                     Console.Write("Tc kimlik numaranızı giriniz: ");
-                    string TcNumber = Console.ReadLine();
-                    if (IsTcNoValid(TcNumber))
+                    string tcNo = Console.ReadLine();
+                    if (IsTcNoValid(tcNo))
                     {
-                        Console.WriteLine(TcNumber + " numaralı Tc gerçektir");
+                        Console.WriteLine(tcNo + " numaralı Tc gerçektir");
                     }
                     Console.ReadLine();
                     break;
@@ -62,6 +62,11 @@ namespace Luhn_ve_TC_algoritması
         {
             int deg1 = 0;
             bool deg2 = false;
+            if (cardNumber.Length !=16)
+            {
+                Console.WriteLine("Kart numarası 16 rakamdan oluşmalı");
+                return false;
+            }
             for (int i = cardNumber.Length - 1; i >= 0; i--)
             {
                 int n = int.Parse(cardNumber[i].ToString());
@@ -83,49 +88,61 @@ namespace Luhn_ve_TC_algoritması
         {
             if (tcNo.Length != 11)
             {
-                Console.WriteLine("TC Kimlik No 11 karakter olmalıdır."); /*1.kural*/
+                Console.WriteLine("Tc kimlik 11 haneli olmalıdır.");
                 return false;
             }
 
-            bool isNumber = long.TryParse(tcNo, out long tcNumber);
-            if (!isNumber)
+            foreach (char c in tcNo)
             {
-                Console.WriteLine("TC Kimlik No sadece rakamlardan oluşmalıdır."); /*2.kural*/
-                return false;
+                if (!Char.IsDigit(c))
+                {
+                    Console.WriteLine("Tc kimlik sadece rakamlardan oluşmalıdır.");
+                    return false;
+                }
             }
-
             if (tcNo[0] == '0')
             {
-                Console.WriteLine("TC Kimlik No ilk hanesi 0 olamaz."); /*3. kural*/
+                Console.WriteLine("Tc kimlik 0 ile başlayamaz.");
                 return false;
             }
 
-            int firstDigit = (int)(tcNumber / 1000000000 % 10);
-            int secondDigit = (int)(tcNumber / 100000000 % 10);
-            int thirdDigit = (int)(tcNumber / 10000000 % 10);
-            int fourthDigit = (int)(tcNumber / 1000000 % 10);
-            int fifthDigit = (int)(tcNumber / 100000 % 10);
-            int sixthDigit = (int)(tcNumber / 10000 % 10);
-            int seventhDigit = (int)(tcNumber / 1000 % 10);
-            int eighthDigit = (int)(tcNumber / 100 % 10);
-            int ninthDigit = (int)(tcNumber / 10 % 10);
-            int tenthDigit = (int)(tcNumber % 10);
+            int[] numbers = new int[11];
 
-            int mod10 = ((firstDigit + thirdDigit + fifthDigit + seventhDigit + ninthDigit) * 7 - (secondDigit + fourthDigit + sixthDigit + eighthDigit)) % 10;
-            if (mod10 == tenthDigit)
+            for (int i = 0; i < 11; i++)
             {
-                Console.WriteLine("TC Kimlik No geçersizdir."); /*4. kural*/
-                return false;
+                numbers[i] = Int32.Parse(tcNo[i].ToString());
             }
 
-            int total = firstDigit + secondDigit + thirdDigit + fourthDigit + fifthDigit + sixthDigit + seventhDigit + eighthDigit + ninthDigit + tenthDigit;
-            int mod11 = total % 10;
-            if (mod11 == (int)(tcNumber / 10 % 10))
+            int toplam1 = 0;
+            int toplam2 = 0;
+
+            for (int i = 0; i < 10; i += 2)
             {
-                Console.WriteLine("TC Kimlik No geçersizdir."); /*5. kural*/
+                toplam1 += numbers[i];
+            }
+
+            for (int i = 1; i < 11; i += 2)
+            {
+                toplam2 += numbers[i];
+            }
+
+            int mod1 = ((toplam1 * 7 - toplam2) % 10);
+            if (mod1 != numbers[9])
+            {
                 return false;
             }
 
+            int toplam3 = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                toplam3 += numbers[i];
+            }
+
+            int mod2 = toplam3 % 10;
+            if (mod2 != numbers[10])
+            {
+                return false;
+            }
             return true;
         }
     }
