@@ -1,0 +1,8 @@
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V listelemee - 3v6\bin\Debug\V listelemee - 3v6.exe.config
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V listelemee - 3v6\bin\Debug\V listelemee - 3v6.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V listelemee - 3v6\bin\Debug\V listelemee - 3v6.pdb
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V listelemee - 3v6\obj\Debug\V listelemee - 3v6.csproj.AssemblyReference.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V listelemee - 3v6\obj\Debug\V listelemee - 3v6.csproj.SuggestedBindingRedirects.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V listelemee - 3v6\obj\Debug\V listelemee - 3v6.csproj.CoreCompileInputs.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V listelemee - 3v6\obj\Debug\V listelemee - 3v6.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V listelemee - 3v6\obj\Debug\V listelemee - 3v6.pdb
