@@ -1,0 +1,8 @@
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V Sıralama algoirtması\bin\Debug\V Sıralama algoirtması.exe.config
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V Sıralama algoirtması\bin\Debug\V Sıralama algoirtması.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V Sıralama algoirtması\bin\Debug\V Sıralama algoirtması.pdb
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V Sıralama algoirtması\obj\Debug\V Sıralama algoirtması.csproj.AssemblyReference.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V Sıralama algoirtması\obj\Debug\V Sıralama algoirtması.csproj.SuggestedBindingRedirects.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V Sıralama algoirtması\obj\Debug\V Sıralama algoirtması.csproj.CoreCompileInputs.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V Sıralama algoirtması\obj\Debug\V Sıralama algoirtması.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V Sıralama algoirtması\obj\Debug\V Sıralama algoirtması.pdb
