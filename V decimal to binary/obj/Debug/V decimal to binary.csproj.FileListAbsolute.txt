@@ -1,0 +1,8 @@
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V decimal to binary\bin\Debug\V decimal to binary.exe.config
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V decimal to binary\bin\Debug\V decimal to binary.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V decimal to binary\bin\Debug\V decimal to binary.pdb
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V decimal to binary\obj\Debug\V decimal to binary.csproj.AssemblyReference.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V decimal to binary\obj\Debug\V decimal to binary.csproj.SuggestedBindingRedirects.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V decimal to binary\obj\Debug\V decimal to binary.csproj.CoreCompileInputs.cache
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V decimal to binary\obj\Debug\V decimal to binary.exe
+C:\Users\MUSTAFA BERAT KAYA\source\repos\Csharp algoritma\V decimal to binary\obj\Debug\V decimal to binary.pdb
